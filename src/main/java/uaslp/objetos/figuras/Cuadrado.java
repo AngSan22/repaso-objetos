@@ -1,7 +1,7 @@
 package uaslp.objetos.figuras;
 
 public class Cuadrado {
-    double lado;
+    private double lado;
 
     public Cuadrado(){
 
