@@ -3,6 +3,12 @@ package uaslp.objetos.figuras;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import uaslp.objetos.figuras.Exception.BaseNoProvistaException;
+import uaslp.objetos.figuras.Exception.DatoFaltanteException;
+import uaslp.objetos.figuras.Exception.LadoNoProvistoException;
+import uaslp.objetos.figuras.Exception.AlturaNoProvistaException;
+import uaslp.objetos.figuras.Exception.NumeroInvalidoDeLados;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Exercise3 {

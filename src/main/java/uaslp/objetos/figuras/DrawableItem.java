@@ -1,4 +1,4 @@
 package uaslp.objetos.figuras;
 
-abstract class DrawableItem {
+public interface DrawableItem {
 }

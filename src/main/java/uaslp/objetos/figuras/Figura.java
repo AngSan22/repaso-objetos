@@ -1,6 +1,8 @@
 package uaslp.objetos.figuras;
 
-abstract class Figura extends DrawableItem{
+import uaslp.objetos.figuras.Exception.DatoFaltanteException;
+
+abstract class Figura implements DrawableItem{
 
     private final String name;
 
@@ -8,7 +10,7 @@ abstract class Figura extends DrawableItem{
         this.name = name;
     }
     public abstract double getArea();
-    public String getName(){
+    public String getName() throws DatoFaltanteException {
         return name;
     }
 }
